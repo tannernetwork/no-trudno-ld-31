@@ -1,0 +1,28 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	background: #111;
+	margin: 0;
+}
+
+#game {
+	background: #030303;
+	display: block;
+	width: 100%;
+	height: calc(100% - 50px);
+}
+
+#navbar {
+	min-height: 30px;
+	padding: 10px;
+	background: black;
+	color: #1af;
+	font: 18px Segoe UI;
+}
+
+a {
+	color: #1af !important;
+	text-decoration: none;
+}
